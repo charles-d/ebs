@@ -1,0 +1,247 @@
+@charset "utf-8";
+
+a:link
+{
+  color: #00F; 
+}
+
+a:visited
+{
+  color: #00F; 
+}
+
+img
+{
+  border-style: none;
+}
+
+.hidden 
+{
+  visibility: hidden;
+}
+
+body
+{
+  background: -webkit-gradient(linear, left top, left bottom, from(#000000), to(#3a959c)); 
+  background: -moz-linear-gradient(top, #000000, #3a959c);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#000000', endColorstr='#3a959c');
+  text-align: center;
+  color: #666;
+}
+
+div#header
+{
+  position:relative;
+  width: 980px;
+}
+
+.logo {
+  height: 130px;
+  padding: 5px;
+}
+
+div#gallery {
+  height: 420px;
+}
+
+.layer {
+	text-align: center;
+	position: relative;
+	top: 350px;
+}
+
+.layer h2 {
+   background-color: #333;
+   color: #FFF;
+}
+
+div#content
+{
+  margin-left: auto;
+  margin-right: auto;
+  width: 980px;
+  text-align: left;
+}
+
+div#body_text {
+  background-color: #FFF;
+  min-height: 900px;
+  padding: 20px 20px 20px 20px;
+}
+
+div#schedule {
+  padding: 20px 20px 20px 20px;
+}
+
+div#tall_image {
+  float: right;
+  height: 900px;
+  margin: 0 0 0 20px;
+  width: 200px; 
+}
+
+div#info {
+  position:absolute;
+  bottom:10px;
+  right:20px;
+}
+
+div#address {
+  color: white;
+  margin-bottom: 4px;
+  font-size:  23px;
+}
+
+span#address_map {
+	font-size:  16px;
+}
+
+div#follow {
+  float: right;
+}
+
+.index_body {
+  margin: 5px;
+  position: relative;
+}
+
+.index_text {
+  color: white;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  position: relative;
+  width: 675px;
+}
+
+.index_text p {
+  font-size: 17px;
+}
+
+.schedulicity {
+  /* float: left;  */
+  width: 700px;
+}
+
+.buttons {
+  position: absolute;
+  right: 0px;
+}
+
+.buttons a {
+  margin: 4px 4px 4px 0px;
+}
+
+.button {
+  display: inline-block;
+  outline: none;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  padding: .2em 0.5em .22em;
+  text-shadow: 0 1px 1px rgba(0,0,0,.3);
+  -webkit-border-radius: .3em; 
+  -moz-border-radius: .3em;
+  border-radius: .3em;
+  -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+  -moz-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+  box-shadow: 0 1px 2px rgba(0,0,0,.2);
+}
+
+.button:hover {
+  text-decoration: none;
+}
+
+.button:active {
+  position: relative;
+  top: 1px;
+}
+
+.large_button {
+  font-size: 28px;
+  font-weight: bold;
+  width: 180px;
+}
+
+.teal {
+  color: #fef4e9;
+  border: solid 1px #006a78;
+  background: #006a78;
+  background: -webkit-gradient(linear, left top, left bottom, from(#006a78), to(#4cc4d4));
+  background: -moz-linear-gradient(top,  #006a78,  #4cc4d4);
+  filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#006a78', endColorstr='#4cc4d4');
+}
+
+.teal:hover {
+  background: #2e95a3;
+  background: -webkit-gradient(linear, left top, left bottom, from(#2e95a3), to(#7af2ff));
+  background: -moz-linear-gradient(top,  #2e95a3,  #7af2ff);
+  filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#2e95a3', endColorstr='#7af2ff');
+}
+
+.teal:active {
+  color: #2e95a3;
+  background: -webkit-gradient(linear, left top, left bottom, from(#2e95a3), to(#7af2ff)));
+	background: -moz-linear-gradient(top,  #2e95a3,  #7af2ff);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#2e95a3', endColorstr='#7af2ff');
+}
+
+.teal:visited {
+  color: #fef4e9;
+}
+
+.teal:link {
+  color: #fef4e9;
+}
+
+.button_link {
+  background:url(../img/button_sprite.png) no-repeat scroll right -165px transparent;
+  color:#eee;
+  text-shadow:0 -1px 0 #888888;
+  display:inline-block;
+  font-size:11px;
+  letter-spacing:1.6px;
+  margin:5px 10px 5px 0;
+  border:0 none;
+  padding:0 24px 0 0;
+  text-decoration: none;
+  text-transform:uppercase;
+}
+.button_link.large_button {
+  background-position:right -61px;
+  font-size:24px;
+  height:56px;
+  padding-right:24px;
+}
+.button_link span {
+  background:url(../img/button_sprite.png) no-repeat scroll -6px -122px transparent;
+  display:block;
+  line-height:10px;
+  padding:15px 0 17px 21px;
+}
+.button_link span h3 {
+  position: relative;
+  top: -30px;
+}
+.button_link.large_button span
+{
+  background-position:-6px -3px;
+  line-height:20px;
+  padding:17px 0 20px 20px;
+  text-transform:none;
+}
+
+div.stone_text
+{
+  margin-left: 180px;
+  margin-right: 180px;
+}
+
+div.stones
+{
+  position: relative;
+}
+
+.stone
+{
+  position: absolute;
+}
