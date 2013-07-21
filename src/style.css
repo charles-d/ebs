@@ -1,5 +1,16 @@
 @charset "utf-8";
 
+.tight
+{
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+
+.tight-bottom
+{
+  margin-bottom: 2px;
+}
+
 a:link
 {
   color: #00F; 
@@ -243,5 +254,7 @@ div.stones
 
 .stone
 {
+  max-height: 200px;
+  max-width: 150px;
   position: absolute;
 }
