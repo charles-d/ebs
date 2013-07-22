@@ -5,7 +5,7 @@
 <title>Elite Ballroom Studio</title>
 <link rel="stylesheet" href="src/style.css">
 <link rel="stylesheet" href="src/dropline.css">
-<script type="text/javascript" src="src/jquery.min.js"></script>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
 <script type="text/javascript" src="src/dropline.js"></script>
 <script src="galleria/galleria-1.2.5.js"></script>
 <script type="text/javascript">
@@ -103,50 +103,50 @@ _gaq.push(['_trackPageview']);
 
 <script>
   var images = [
-    { 
-	  image: "img/team.jpg",
-	  layer: '<div class="layer"><h2>The Elite Formation Team</h2></div>',
-	  link: "team.html"
+    {
+        image: "img/team.jpg",
+        layer: '<div class="layer"><h2>The Elite Formation Team</h2></div>',
+        link: "team.html"
     },
-    { 
-	  image: "img/private.jpg",
-	  layer: '<div class="layer"><h2>Private Lessons</h2></div>',
-	  link: "lessons.html"
+    {
+        image: "img/private.jpg",
+        layer: '<div class="layer"><h2>Private Lessons</h2></div>',
+        link: "lessons.html"
     },
-//    { 
+//    {
 //	  image: "img/group.jpg",
 //	  layer: '<div class="layer"><h2>Group Classes</h2></div>',
 //	  link: "classes.html"
 //	},
-    { 
-	  image: "img/banner_wedding.jpg",
-	  layer: '<div class="layer"><h2>Wedding Packages</h2></div>',
-	  link: "wedding.html"
+    {
+        image: "img/banner_wedding.jpg",
+        layer: '<div class="layer"><h2>Wedding Packages</h2></div>',
+        link: "wedding.html"
     },
     {
-	  image: "img/studio.jpg",
-	  layer: '<div class="layer"><h2>The Studio</h2></div>',
-	  link: "boutique.html"
+	    image: "img/studio.jpg",
+	    layer: '<div class="layer"><h2>The Studio</h2></div>',
+	    link: "boutique.html"
     },
-    { 
-	  image: "img/boutique.jpg",
-	  layer: '<div class="layer"><h2>The Elite Boutique</h2></div>',
-	  link: "about.html"
+    {
+	    image: "img/boutique.jpg",
+	    layer: '<div class="layer"><h2>The Elite Boutique</h2></div>',
+	    link: "about.html"
     },
   ];
 
   Galleria.loadTheme('galleria/themes/classic/galleria.classic.min.js');
   $("#gallery").galleria({
     autoplay: true,
-	carousel: false,
-	dataSource: images,
+    carousel: false,
+    dataSource: images,
     height: 420,
     imageCrop: false,
-	preload: 3,
-	showImagenav: false,
-	showInfo: false,
-	showCounter: false,
-	thumbnails: false,
+    preload: 3,
+    showImagenav: false,
+    showInfo: false,
+    showCounter: false,
+    thumbnails: false,
     transition: 'fade',
     width: 980
   });
